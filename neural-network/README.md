@@ -2,6 +2,15 @@
 
 This repository helps you to establish sequences of organizational patterns from all 4 languages of organizational patterns documented by Coplien and Harrison in Organizational Patterns of Agile Software Development.
 
+How to establish pattern sequences with artificial neural networks:
+
+1. prepare dataset
+2. train neural network on this dataset implementing softmax regression model
+3. identify first pattern in pattern sequence. This pattern is identified by the highest probability in all output vectors.
+4. second-highest probability identifies second pattern in this pattern sequence...
+
+Each run of this neural network provides you unique probabilities and leads to unique pattern sequences.
+
 Following pattern sequences were identified:
 
 From experiment 1:
