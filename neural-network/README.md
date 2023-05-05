@@ -2,7 +2,7 @@
 
 From experiment 1:
 
-1. Subclass Per Team p(0.799468) -> Patron Role (p=0.674086) -> Hierarchy of Factories (p=0.147888). 
+1. Subclass Per Team (p=0.799468) -> Patron Role (p=0.674086) -> Hierarchy of Factories (p=0.147888). 
 This pattern sequences introduces experienced person to decide when is the right place to optimize hierarchies of classes into the Hierarchy of Factories design pattern.
 3. Private Versioning (p=0.942623) -> Phasing it in (p=0.731583) -> Generics and Specifics (p=0.436626). 
 This pattern sequence can be used to implement solution expected to be used across many software projects. Private Versioning pattern starts this sequence because of the need to experiment with new technology. Once the stable developer is ready, new experienced developer comes up by developing generic framework with UI components. These UI components are being put together by the stable though less experienced developer into the application-specific solution. This application-specific solution is a proof of concept for other software projects waiting to be integrated with this solution in the future.
