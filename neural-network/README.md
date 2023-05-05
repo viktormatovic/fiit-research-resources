@@ -1,4 +1,8 @@
-# Expected pattern sequences
+# Establishing Sequences of Organizational Patterns With Artificial Neural Networks
+
+This repository helps you to establish sequences of organizational patterns from all 4 languages of organizational patterns documented by Coplien and Harrison in Organizational Patterns of Agile Software Development.
+
+Following pattern sequences were identified:
 
 From experiment 1:
 
