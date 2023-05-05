@@ -28,7 +28,8 @@ This pattern sequence can be used to implement solution expected to be used acro
 
 
 4. Architect Also Implements (p=0.998732) -> Standup Meeting (p=0.066231) -> Architecture Team (p=0.058503). 
-This pattern sequence was seen when more experienced lead developer (architect) worked on the first version of the software module with the less experienced through the use of the generic sub-modules customized in one application as the proof-of-concept. They worked with new technology in the company and formed the Architecture Team. They discussed the progress in the project in Standup Meetings ocassionally joined by project manager.
+This pattern sequence was seen when more experienced lead developer (architect) worked on the first version of the software module with the less experienced through the use of the generic sub-modules customized in one application as the proof-of-concept. They worked with new technology in the company and formed the Architecture Team. They discussed the progress in the project in Standup Meetings ocassionally joined by project manager. This pattern sequence is partially based on implicit relationships between patterns because Architect Team mentions Standup Meeting and Architect Also Implements in its textual description.
+
 5. Distribute Work Evenly (p=0.060515) -> Hierarchy of Factories (p=0.057696) -> Generics and Specifics (p=0.057791)
 This pattern sequence can be used to implement the software library shared by multiple applications where modules of the library are implemented with novices given the requirements for these modules from experts. Use of this library by numerous other applications is possible due to the genericity of the library.
 
