@@ -11,6 +11,9 @@ This pattern sequences introduces experienced person to decide when is the right
 3. Private Versioning (p=0.942623) -> Phasing it in (p=0.731583) -> Generics and Specifics (p=0.436626). 
 This pattern sequence can be used to implement solution expected to be used across many software projects. Private Versioning pattern starts this sequence because of the need to experiment with new technology. Once the owner of the application where new technology is to be used is ready, another experienced software architect comes into the team by developing generic framework with UI components. Code behind these UI components is written by the less experienced developer and UI components are used as building blocks of the application-specific solution. This application-specific solution is a proof of concept for other software projects waiting to be integrated with the solution based on this new technology in the future. This pattern sequence is established from patterns which have only implicit relationships between them.
 
+![second-pattern-sequence drawio](https://user-images.githubusercontent.com/32246112/236458144-dbe09816-ae59-4ea5-9a59-9079da470fc9.png)
+
+
 4. Architect Also Implements (p=0.998732) -> Standup Meeting (p=0.066231) -> Architecture Team (p=0.058503). 
 This pattern sequence was seen when more experienced lead developer (architect) worked on the first version of the software module with the less experienced through the use of the generic sub-modules customized in one application as the proof-of-concept. They worked with new technology in the company and formed the Architecture Team. They discussed the progress in the project in Standup Meetings ocassionally joined by project manager.
 5. Distribute Work Evenly (p=0.060515) -> Hierarchy of Factories (p=0.057696) -> Generics and Specifics (p=0.057791)
