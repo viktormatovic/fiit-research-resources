@@ -1,3 +1,25 @@
+# Expected pattern sequences
+
+From experiment 1:
+
+1. Subclass Per Team p(0.799468) -> Patron Role (p=0.674086) -> Hierarchy of Factories (p=0.147888). 
+This pattern sequences introduces experienced person to decide when is the right place to optimize hierarchies of classes into the Hierarchy of Factories design pattern.
+3. Private Versioning (p=0.942623) -> Phasing it in (p=0.731583) -> Generics and Specifics (p=0.436626). 
+This pattern sequence can be used to implement solution expected to be used across many software projects. Private Versioning pattern starts this sequence because of the need to experiment with new technology. Once the stable developer is ready, new experienced developer comes up by developing generic framework with UI components. These UI components are being put together by the stable though less experienced developer into the application-specific solution. This application-specific solution is a proof of concept for other software projects waiting to be integrated with this solution in the future.
+4. Architect Also Implements (p=0.998732) -> Standup Meeting (p=0.066231) -> Architecture Team (p=0.058503). 
+This pattern sequence was seen when more experienced lead developer (architect) worked on the first version of the software module with the less experienced through the use of the generic sub-modules customized in one application as the proof-of-concept. They worked with new technology in the company and formed the Architecture Team. They discussed the progress in the project in Standup Meetings ocassionally joined by project manager.
+5. Distribute Work Evenly (p=0.060515) -> Hierarchy of Factories (p=0.057696) -> Generics and Specifics (p=0.057791)
+This pattern sequence can be used to implement the software library shared by multiple applications where modules of the library are implemented with novices given the requirements for these modules from experts. Use of this library by numerous other applications is possible due to the genericity of the library.
+
+From experiment 2:
+1. Architect Controls Product (p=0.228964) -> Few Roles (p=0.126118) -> Code Ownership (p=0.119162)
+This pattern sequence documents usual setting in software house companies, where skilled and experienced developer is assigned application owner role. He still can have consultants assigned or it's own developer to help, but everything flows through the owner hands.
+2. Generics and Specifics (p=0.562330) -> Distribute Work Evenly (p=0.356492) -> Architect Controls Product (p=0.238690). This pattern documents situation where framework and possibly its application in another code base or product is developed and maintained by various roles. Build of the final product is supervised by architect who directs the architectural style of this framework.
+3. Architect Also Implements (p=0.995495) -> Code Ownership (p=0.061411) -> Lock Em Up Together (p=0.059739)
+This pattern sequence clearly documents how architecture is designed and developed by the consistent team led by lead developer who is an architect and who directs the architectural style of the product.
+4. Developing In Pairs (p=0.055370) -> Distribute Work Evenly (p=0.054725) -> Architecture Team (p=0.051247)
+This pattern sequence documents how the system is developed. Developers write the code (Developing In Pairs). Because they want to conduct code review as soon as possible and because some developers are more skilled and experienced than the others, they write the code in pairs. Developers are organized into small groups (or even one group, one pair) headed by architects of the partitions. System is partitioned and it's architecture is designed by high level architects because of the application of Architecture Team organizational pattern.
+
 # How to use
 
 Install Python and Jupyter Notebook or Jupyter Lab. Then run from this place as ```jupyter notebook```. Your app is then accessible at ```http://localhost:8889/?token=<your-token>```.
