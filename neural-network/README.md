@@ -40,8 +40,13 @@ This pattern sequence can be used to implement the software library shared by mu
 
 
 From experiment 2:
+
 1. Architect Controls Product (p=0.228964) -> Few Roles (p=0.126118) -> Code Ownership (p=0.119162)
 This pattern sequence documents usual setting in software house companies, where skilled and experienced developer is assigned application owner role. He still can have consultants assigned or it's own developer to help, but everything flows through the owner hands.
+
+![fifth-pattern-sequence drawio](https://user-images.githubusercontent.com/32246112/236620677-61e70dc4-7be2-48bd-a59d-d7d50dd05568.png)
+
+
 2. Generics and Specifics (p=0.562330) -> Distribute Work Evenly (p=0.356492) -> Architect Controls Product (p=0.238690). This pattern documents situation where framework and possibly its application in another code base or product is developed and maintained by various roles. Build of the final product is supervised by architect who directs the architectural style of this framework.
 3. Architect Also Implements (p=0.995495) -> Code Ownership (p=0.061411) -> Lock Em Up Together (p=0.059739)
 This pattern sequence clearly documents how architecture is designed and developed by the consistent team led by lead developer who is an architect and who directs the architectural style of the product.
