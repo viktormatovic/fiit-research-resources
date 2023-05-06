@@ -36,6 +36,9 @@ This pattern sequence was seen when more experienced lead developer (architect) 
 5. Distribute Work Evenly (p=0.060515) -> Hierarchy of Factories (p=0.057696) -> Generics and Specifics (p=0.057791)
 This pattern sequence can be used to implement the software library shared by multiple applications where modules of the library are implemented with novices given the requirements for these modules from experts. Use of this library by numerous other applications is possible due to the genericity of the library.
 
+![fourth-pattern-sequence drawio](https://user-images.githubusercontent.com/32246112/236620058-0e849fdf-4276-4ff6-aef9-a9ffaec189b7.png)
+
+
 From experiment 2:
 1. Architect Controls Product (p=0.228964) -> Few Roles (p=0.126118) -> Code Ownership (p=0.119162)
 This pattern sequence documents usual setting in software house companies, where skilled and experienced developer is assigned application owner role. He still can have consultants assigned or it's own developer to help, but everything flows through the owner hands.
