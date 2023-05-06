@@ -53,7 +53,11 @@ This pattern sequence documents usual setting in software house companies, where
 
 
 4. Architect Also Implements (p=0.995495) -> Code Ownership (p=0.061411) -> Lock Em Up Together (p=0.059739)
-This pattern sequence clearly documents how architecture is designed and developed by the consistent team led by lead developer who is an architect and who directs the architectural style of the product.
+This pattern sequence documents how initial system architecture is designed  by the team led by lead developer who is an architect and understand code and who directs the architectural style of the product by leading team of other programmers and designers. This pattern sequence is only partially based on implicit relationships between patterns because Code Ownership mentions Architect Also Implements organizational pattern, because architect is expected to understand code too.  Lock Em Up Together also mentions Architect Also Implements, because architects understanding the code are locked in the room to desing initial architecture.
+
+![seventh-pattern-sequence drawio](https://user-images.githubusercontent.com/32246112/236624847-ebed6daa-424e-41a3-b46f-f82daaa9a1d3.png)
+
+
 4. Developing In Pairs (p=0.055370) -> Distribute Work Evenly (p=0.054725) -> Architecture Team (p=0.051247)
 This pattern sequence documents how the system is developed. Developers write the code (Developing In Pairs). Because they want to conduct code review as soon as possible and because some developers are more skilled and experienced than the others, they write the code in pairs. Developers are organized into small groups (or even one group, one pair) headed by architects of the partitions. System is partitioned and it's architecture is designed by high level architects because of the application of Architecture Team organizational pattern.
 
