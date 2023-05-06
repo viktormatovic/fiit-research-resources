@@ -61,6 +61,9 @@ This pattern sequence documents how initial system architecture is designed  by 
 4. Developing In Pairs (p=0.055370) -> Distribute Work Evenly (p=0.054725) -> Architecture Team (p=0.051247)
 This pattern sequence documents how the system is developed. Developers write the code (Developing In Pairs). Because they want to conduct code review as soon as possible and because some developers are more skilled and experienced than the others, they write the code in pairs. Developers are organized into small groups (or even one group, one pair) headed by architects of the partitions. System is partitioned and it's architecture is designed by high level architects because of the application of Architecture Team organizational pattern.
 
+![eight-pattern-sequence drawio](https://user-images.githubusercontent.com/32246112/236638733-382721d2-4ee0-472c-8bda-da1bda0ad2bf.png)
+
+
 # How to use
 
 Install Python and Jupyter Notebook or Jupyter Lab. Then run from this place as ```jupyter notebook```. Your app is then accessible at ```http://localhost:8889/?token=<your-token>```.
