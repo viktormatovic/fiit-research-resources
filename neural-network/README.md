@@ -42,7 +42,7 @@ This pattern sequence can be used to implement the software library shared by mu
 From experiment 2:
 
 1. Architect Controls Product (p=0.228964) -> Few Roles (p=0.126118) -> Code Ownership (p=0.119162)
-This pattern sequence documents usual setting in software house companies, where skilled and experienced developer is assigned application owner role. He still can have consultants assigned or it's own developer to help, but everything flows through the owner hands.
+This pattern sequence documents usual setting in software house companies, where skilled and experienced developer is assigned application owner role. He still can have consultants assigned or it's own developer to help, but everything flows through the owner hands. This pattern sequence is partially based on implicit relationships between its patterns because Architect Controls Product makes reference to Code Ownership (as architect can code too).
 
 ![fifth-pattern-sequence drawio](https://user-images.githubusercontent.com/32246112/236620677-61e70dc4-7be2-48bd-a59d-d7d50dd05568.png)
 
