@@ -1,3 +1,70 @@
+# Establishing Sequences of Organizational Patterns With Artificial Neural Networks
+
+This repository helps you to establish sequences of organizational patterns from all 4 languages of organizational patterns documented by Coplien and Harrison in Organizational Patterns of Agile Software Development.
+
+How to establish pattern sequences with artificial neural networks:
+
+1. prepare dataset
+2. train neural network on this dataset implementing softmax regression model
+3. identify first pattern in pattern sequence. This pattern is identified by the highest probability in all output vectors.
+4. second-highest probability identifies second pattern in this pattern sequence...
+
+Each run of this neural network provides you unique probabilities and leads to unique pattern sequences.
+
+Following pattern sequences were identified:
+
+From experiment 1:
+
+1. Subclass Per Team (p=0.799468) -> Patron Role (p=0.674086) -> Hierarchy of Factories (p=0.147888). 
+This pattern sequences introduces experienced person to decide when is the right place to optimize hierarchies of classes into the Hierarchy of Factories design pattern. This pattern sequence is established from patterns in People and Code Pattern Language and Piecemeal Growth Pattern Language. This pattern sequence was established using explicit relationship (Hierarchy of Factories implements Subclass Per Team) and implicit relationship between its patterns.
+
+![first-pattern-sequence drawio](https://user-images.githubusercontent.com/32246112/236413228-8e4e0895-49ce-4314-a8f1-53f0dbd5feed.png)
+
+
+3. Private Versioning (p=0.942623) -> Phasing it in (p=0.731583) -> Generics and Specifics (p=0.436626). 
+This pattern sequence can be used to implement solution expected to be used across many software projects. Private Versioning pattern starts this sequence because of the need to experiment with new technology. Oncestan the owner of the application where new technology is to be used is ready, another experienced software architect comes into the team by developing generic framework with UI components. Code behind these UI components is written by the less experienced developer and UI components are used as building blocks of the application-specific solution. This application-specific solution is a proof of concept for other software projects waiting to be integrated with the solution based on this new technology in the future. This pattern sequence is established from patterns which have only implicit relationships between them.
+
+![second-pattern-sequence drawio](https://user-images.githubusercontent.com/32246112/236458144-dbe09816-ae59-4ea5-9a59-9079da470fc9.png)
+
+
+4. Architect Also Implements (p=0.998732) -> Stand up Meeting (p=0.066231) -> Architecture Team (p=0.058503). 
+This pattern sequence was seen when more experienced lead developer (architect) worked on the first version of the software module with the less experienced through the use of the generic sub-modules customized in one application as the proof-of-concept. They worked with new technology in the company and formed the Architecture Team. They discussed the progress in the project in Stand up Meetings ocassionally joined by project manager. This pattern sequence is partially based on implicit relationships between patterns because Architect Team mentions Stand up Meeting and Architect Also Implements in its textual description.
+
+![third-pattern-sequence drawio](https://user-images.githubusercontent.com/32246112/236462320-17e65ba4-889f-4a81-96f5-2f7cf3064192.png)
+
+
+5. Distribute Work Evenly (p=0.060515) -> Hierarchy of Factories (p=0.057696) -> Generics and Specifics (p=0.057791)
+This pattern sequence can be used to implement the software library shared by multiple applications where modules of the library are implemented with novices given the requirements for these modules from experts. Use of this library by numerous other applications is possible due to the genericity of the library. This pattern sequence is completely based on implicit relationships between its patterns because all three patterns make no reference to each other.
+
+![fourth-pattern-sequence drawio](https://user-images.githubusercontent.com/32246112/236620058-0e849fdf-4276-4ff6-aef9-a9ffaec189b7.png)
+
+
+From experiment 2:
+
+1. Architect Controls Product (p=0.228964) -> Few Roles (p=0.126118) -> Code Ownership (p=0.119162)
+This pattern sequence documents usual setting in software house companies, where skilled and experienced developer is assigned application owner role. He still can have consultants assigned or it's own developer to help, but everything flows through the owner hands. This pattern sequence is partially based on implicit relationships between its patterns because Architect Controls Product makes reference to Code Ownership (as architect can code too).
+
+![fifth-pattern-sequence drawio](https://user-images.githubusercontent.com/32246112/236620677-61e70dc4-7be2-48bd-a59d-d7d50dd05568.png)
+
+
+2. Generics and Specifics (p=0.562330) -> Distribute Work Evenly (p=0.356492) -> Architect Controls Product (p=0.238690). This pattern documents situation where framework and possibly its application in another code base or product is developed and maintained by various roles. Build of the final product is supervised by architect who also directs the architectural style of this framework. This pattern sequence is based completely on implicit relationships between its patterns.
+
+![sixth-pattern-sequence drawio](https://user-images.githubusercontent.com/32246112/236622100-6eef5b7c-33d3-4d03-9b33-2f00e25358c4.png)
+
+
+4. Architect Also Implements (p=0.995495) -> Code Ownership (p=0.061411) -> Lock Em Up Together (p=0.059739)
+This pattern sequence documents how initial system architecture is designed  by the team led by lead developer who is an architect and understand code and who directs the architectural style of the product by leading team of other programmers and designers. This pattern sequence is only partially based on implicit relationships between patterns because Code Ownership mentions Architect Also Implements organizational pattern, because architect is expected to understand code too.  Lock Em Up Together also mentions Architect Also Implements, because architects understanding the code are locked in the room to desing initial architecture.
+
+![seventh-pattern-sequence drawio](https://user-images.githubusercontent.com/32246112/236625448-8842fb62-7e22-4973-9884-d08d5ece00dd.png)
+
+
+4. Developing In Pairs (p=0.055370) -> Distribute Work Evenly (p=0.054725) -> Architecture Team (p=0.051247)
+This pattern sequence documents how the system is developed. Developers write the code (Developing In Pairs). Because they want to conduct code review as soon as possible and because some developers are more skilled and experienced than the others, they write the code in pairs. Developers are organized into small groups (or even one group, one pair) headed by architects of the partitions. System is partitioned and it's architecture is designed by high level architects because of the application of Architecture Team organizational pattern.
+This pattern sequence is based solely on the implicit relationships between its patterns.
+
+![eight-pattern-sequence drawio](https://user-images.githubusercontent.com/32246112/236638733-382721d2-4ee0-472c-8bda-da1bda0ad2bf.png)
+
+
 # How to use
 
 Install Python and Jupyter Notebook or Jupyter Lab. Then run from this place as ```jupyter notebook```. Your app is then accessible at ```http://localhost:8889/?token=<your-token>```.

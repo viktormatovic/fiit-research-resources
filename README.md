@@ -1,1 +1,1 @@
-# fiit-research-resources
+# Establishing Pattern Sequences Using Artificial Neural Networks
