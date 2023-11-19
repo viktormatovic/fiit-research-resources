@@ -31,9 +31,10 @@ This pattern sequence is about novice developers working together with senior de
 
 ![sequence drawio (3)](https://github.com/viktorFIIT/fiit-research-resources/assets/32246112/357ac30f-c101-4d7e-abb2-17987a9d8818)
 
-5. Architecture Team (p=0.057077) -> Few Roles (p=0.055865) -> Generics and Specifics (p=0.055788)
+4. Architecture Team (p=0.057077) -> Few Roles (p=0.055865) -> Generics and Specifics (p=0.055788) from trigrams. <br>
 Experienced senior developers choose the technology to work with, and then according to Architecture Team1 design the initial software product architecture. Some less experienced software developers are then according to Few Roles2 and Generics and Specifics3 chosen to incorporate and customize this framework in the specific software products. 
 
+![sequence drawio (4)](https://github.com/viktorFIIT/fiit-research-resources/assets/32246112/c0103735-4ef1-4cd5-bd2d-31c2794821c2)
 
 From experiment 2:
 
