@@ -15,28 +15,24 @@ Following pattern sequences were identified:
 
 From experiment 1:
 
-1. Subclass Per Team (p=0.799468) -> Patron Role (p=0.674086) -> Hierarchy of Factories (p=0.147888). 
+1. Subclass Per Team (p=0.799468) -> Patron Role (p=0.674086) -> Hierarchy of Factories (p=0.147888) from bigrams in first experiment. 
 This pattern sequences introduces experienced person to decide when is the right place to optimize hierarchies of classes into the Hierarchy of Factories design pattern. This pattern sequence is established from patterns in People and Code Pattern Language and Piecemeal Growth Pattern Language. This pattern sequence was established using explicit relationship (Hierarchy of Factories implements Subclass Per Team) and implicit relationship between its patterns.
 
 ![first-pattern-sequence drawio](https://user-images.githubusercontent.com/32246112/236413228-8e4e0895-49ce-4314-a8f1-53f0dbd5feed.png)
 
 
-3. Private Versioning (p=0.942623) -> Phasing it in (p=0.731583) -> Generics and Specifics (p=0.436626). 
+2. Private Versioning (p=0.942623) -> Phasing it in (p=0.731583) -> Generics and Specifics (p=0.436626) from bigrams in first experiment. 
 This pattern sequence can be used to implement solution expected to be used across many software projects. Private Versioning pattern starts this sequence because of the need to experiment with new technology. Oncestan the owner of the application where new technology is to be used is ready, another experienced software architect comes into the team by developing generic framework with UI components. Code behind these UI components is written by the less experienced developer and UI components are used as building blocks of the application-specific solution. This application-specific solution is a proof of concept for other software projects waiting to be integrated with the solution based on this new technology in the future. This pattern sequence is established from patterns which have only implicit relationships between them.
 
 ![second-pattern-sequence drawio](https://user-images.githubusercontent.com/32246112/236458144-dbe09816-ae59-4ea5-9a59-9079da470fc9.png)
 
-
-4. Architect Also Implements (p=0.998732) -> Stand up Meeting (p=0.066231) -> Architecture Team (p=0.058503). 
-This pattern sequence was seen when more experienced lead developer (architect) worked on the first version of the software module with the less experienced through the use of the generic sub-modules customized in one application as the proof-of-concept. They worked with new technology in the company and formed the Architecture Team. They discussed the progress in the project in Stand up Meetings ocassionally joined by project manager. This pattern sequence is partially based on implicit relationships between patterns because Architect Team mentions Stand up Meeting and Architect Also Implements in its textual description.
-
-![third-pattern-sequence drawio](https://user-images.githubusercontent.com/32246112/236462320-17e65ba4-889f-4a81-96f5-2f7cf3064192.png)
+3. Apprenticeship (p=0.998081) -> Domain Expertise In Roles (p=0.063485) -> Standup Meeting (p=0.061498) from trigrams in first experiment
+This pattern sequence is about novice developers working together with senior developers who are experts in their field, according to Apprenticeship1. The development team consists of the subteams responsible for particular products as per the Domain Expertise In Roles2. These subteams meet according to Standup Meeting3 to discuss what’s going on and work plans for the future.
 
 
-5. Distribute Work Evenly (p=0.060515) -> Hierarchy of Factories (p=0.057696) -> Generics and Specifics (p=0.057791)
-This pattern sequence can be used to implement the software library shared by multiple applications where modules of the library are implemented with novices given the requirements for these modules from experts. Use of this library by numerous other applications is possible due to the genericity of the library. This pattern sequence is completely based on implicit relationships between its patterns because all three patterns make no reference to each other.
 
-![fourth-pattern-sequence drawio](https://user-images.githubusercontent.com/32246112/236620058-0e849fdf-4276-4ff6-aef9-a9ffaec189b7.png)
+5. Architecture Team (p=0.057077) -> Few Roles (p=0.055865) -> Generics and Specifics (p=0.055788)
+Experienced senior developers choose the technology to work with, and then according to Architecture Team1 design the initial software product architecture. Some less experienced software developers are then according to Few Roles2 and Generics and Specifics3 chosen to incorporate and customize this framework in the specific software products. 
 
 
 From experiment 2:
