@@ -15,21 +15,21 @@ Following pattern sequences were identified:
 
 From experiment 1:
 
-1. Subclass Per Team (p=0.799468) -> Patron Role (p=0.674086) -> Hierarchy of Factories (p=0.147888) from bigrams in first experiment. 
+1. Subclass Per Team (p=0.799468) -> Patron Role (p=0.674086) -> Hierarchy of Factories (p=0.147888) from bigrams. <br>
 This pattern sequences introduces experienced person to decide when is the right place to optimize hierarchies of classes into the Hierarchy of Factories design pattern. This pattern sequence is established from patterns in People and Code Pattern Language and Piecemeal Growth Pattern Language. This pattern sequence was established using explicit relationship (Hierarchy of Factories implements Subclass Per Team) and implicit relationship between its patterns.
 
 ![first-pattern-sequence drawio](https://user-images.githubusercontent.com/32246112/236413228-8e4e0895-49ce-4314-a8f1-53f0dbd5feed.png)
 
 
-2. Private Versioning (p=0.942623) -> Phasing it in (p=0.731583) -> Generics and Specifics (p=0.436626) from bigrams in first experiment. 
+2. Private Versioning (p=0.942623) -> Phasing it in (p=0.731583) -> Generics and Specifics (p=0.436626) from bigrams. <br>
 This pattern sequence can be used to implement solution expected to be used across many software projects. Private Versioning pattern starts this sequence because of the need to experiment with new technology. Oncestan the owner of the application where new technology is to be used is ready, another experienced software architect comes into the team by developing generic framework with UI components. Code behind these UI components is written by the less experienced developer and UI components are used as building blocks of the application-specific solution. This application-specific solution is a proof of concept for other software projects waiting to be integrated with the solution based on this new technology in the future. This pattern sequence is established from patterns which have only implicit relationships between them.
 
 ![second-pattern-sequence drawio](https://user-images.githubusercontent.com/32246112/236458144-dbe09816-ae59-4ea5-9a59-9079da470fc9.png)
 
-3. Apprenticeship (p=0.998081) -> Domain Expertise In Roles (p=0.063485) -> Standup Meeting (p=0.061498) from trigrams in first experiment
+3. Apprenticeship (p=0.998081) -> Domain Expertise In Roles (p=0.063485) -> Standup Meeting (p=0.061498) from trigrams. <br>
 This pattern sequence is about novice developers working together with senior developers who are experts in their field, according to Apprenticeship1. The development team consists of the subteams responsible for particular products as per the Domain Expertise In Roles2. These subteams meet according to Standup Meeting3 to discuss what’s going on and work plans for the future.
 
-
+![sequence drawio (3)](https://github.com/viktorFIIT/fiit-research-resources/assets/32246112/357ac30f-c101-4d7e-abb2-17987a9d8818)
 
 5. Architecture Team (p=0.057077) -> Few Roles (p=0.055865) -> Generics and Specifics (p=0.055788)
 Experienced senior developers choose the technology to work with, and then according to Architecture Team1 design the initial software product architecture. Some less experienced software developers are then according to Few Roles2 and Generics and Specifics3 chosen to incorporate and customize this framework in the specific software products. 
