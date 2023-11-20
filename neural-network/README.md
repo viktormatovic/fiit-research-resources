@@ -1,5 +1,7 @@
 # Establishing Sequences of Organizational Patterns With Artificial Neural Networks
 
+Pattern stories to all established pattern sequences can be found at [pattern stories](https://github.com/viktorFIIT/fiit-research-resources/tree/main/neural-network/pattern-stories)
+
 This repository helps you to establish sequences of organizational patterns from all 4 languages of organizational patterns documented by Coplien and Harrison in Organizational Patterns of Agile Software Development.
 
 How to establish pattern sequences with artificial neural networks:
